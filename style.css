@@ -77,3 +77,13 @@
 .bg-custom {
     background-color: rgb(72, 197, 255);
 }
+.btn{
+  background-color: rgb(59, 194, 247);
+}
+.btn:hover{
+  background-color: rgb(63, 178, 63);
+}
+#def{
+  font-weight: bold;
+}
+
