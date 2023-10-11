@@ -86,4 +86,11 @@
 #def{
   font-weight: bold;
 }
+.background-image {
+  
+  background-size: cover; /* Ajustez cette propriété selon vos besoins */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
 
