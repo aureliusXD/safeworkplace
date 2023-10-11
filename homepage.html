@@ -18,7 +18,7 @@
           <!-- Custom styles for this template -->
 
           <link href="assets/bootstrap-5.3.2-examples/carousel/carousel.css" rel="stylesheet">
-          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="homepage.css">
 
           <!-- Polices à utiliser dans le site -->
 
@@ -62,14 +62,23 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./signal.php">Signalement</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./deconnexion.php">Deconnexion</a>
-          </li>
+         
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit" id="search">Search</button>
         </form>
+        
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Connexion
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profil</a></li>
+            <li><a class="dropdown-item" href="#">Paramètres</a></li>
+            <li><a class="dropdown-item" id="dx" href="./deconnexion.php">Déconnexion</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -135,6 +144,19 @@
     </button>
   </div>
 
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Safe workplace l'humain avant tout !</h1>
+        <p class="lead text-body-secondary">Les taux de harcèlement sexuel au travail en Europe varient d'un pays à l'autre, mais selon les données de l'Agence des droits fondamentaux de l'Union européenne, environ 40 à 50 % des femmes ont été confrontées à une forme de harcèlement sexuel au travail.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Formations</a>
+          <a href="#" class="btn btn-secondary my-2">Contacte</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
