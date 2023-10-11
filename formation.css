@@ -78,3 +78,7 @@
     .lead  {
         text-align: center;
       }
+
+.text-body-secondary {
+        text-align: justify;
+      }
