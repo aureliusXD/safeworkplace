@@ -14,6 +14,6 @@ if(isset($valider)){
         $message="<li>Mauvais Email ou mot de passe!</li>";
     else{
         $_SESSION["autoriser"]="oui";
-        header("location:profile.php");
+        header("location:homepage.html");
     }
 }
