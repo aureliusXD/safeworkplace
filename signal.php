@@ -60,7 +60,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./signal.php">Homepage</a>
+            <a class="nav-link active" aria-current="page" href="./homepage.html">Homepage</a>
           </li>     
         </ul>
       </div>
@@ -114,6 +114,20 @@
     </div>
 </form>
                 </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="card bg-light mb-3">
+                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i>Service technique</div>
+                <div class="card-body">
+                    <p>3 rue des Champs Elysées</p>
+                    <p>75008 PARIS</p>
+                    <p>France</p>
+                    <p>Email : email@example.com</p>
+                    <p>Tel. +33 12 56 11 51 84</p>
+
+                </div>
+
             </div>
         </div>
     </div>
