@@ -114,3 +114,9 @@
 .lead {
   text-align: left;
 }
+.img-fluid {
+  max-width:600px;
+  height: 500px;
+  border-radius: 10px;
+ 
+}
