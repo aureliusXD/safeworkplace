@@ -95,22 +95,23 @@
                 <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i>Fiche de signalement :
                 </div>
                 <div class="card-body">
-                    <form method="post" action="" >
-                        <div class="form-group">
-                            <label for="service">Zone</label>
-                            <input type="text" class="form-control" id="service" aria-describedby="emailHelp" placeholder="Enter service" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Service</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="6" required></textarea>
-                        </div>
-                        <div class="mx-auto">
-                        <button type="submit" class="btn btn-primary text-right">Valider</button></div>
-                    </form>
+                <form method="post" action="">
+    <div class="form-group">
+        <label for="zone">Zone</label>
+        <input type="text" name="zone" class="form-control" id="zone" aria-describedby="emailHelp" placeholder="Enter zone" required>
+    </div>
+    <div class="form-group">
+        <label for="service">Service</label>
+        <input type="text" name="service" class="form-control" id="service" aria-describedby="emailHelp" placeholder="Enter service" required>
+    </div>
+    <div class="form-group">
+        <label for="contenu">Message</label>
+        <textarea name="contenu" class="form-control" id="contenu" rows="6" required></textarea>
+    </div>
+    <div class="mx-auto">
+        <button type="submit" name="valider" class="btn btn-primary text-right">Valider</button>
+    </div>
+</form>
                 </div>
             </div>
         </div>
