@@ -110,3 +110,7 @@
 #fm,#ct{
   width: 15rem;
 }
+
+.lead {
+  text-align: left;
+}
